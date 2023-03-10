@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pwd generator</title>
+        <link rel="stylesheet" href="../color/col.css">
+    </head>
+    <body>
+        <div class="container">
+            <span type="text" id="display"></span>
+            <div class="block">
+            <label class="text">password length</label>
+            <input type="number" class="box" placeholder="0" id="totalchar" max="30" min="2" name="" value="4">
+            </div>
+            <div class="block">
+            <label class="text">Contains Uppercase</label>
+            <input type="checkbox" class="box" id="upper-case">    
+            </div>
+            <div class="block">
+            <label class="text">Contains Lowercase</label>
+            <input type="checkbox" id="lower-case" class="box">
+            </div>
+            <div class="block">
+            <label class="text">Contains Numbers</label>
+            <input type="checkbox" id="numbers" class="box">
+            </div>
+            <div class="block">
+            <label class="text">Contains Symbols</label>
+            <input type="checkbox" class="box" id="symbols">
+            </div>
+            <button id="btn">GENERATE</button>
+
+        </div>
+
+        <script async src="../color/col.js" defer></script>
+    </body>
+</html>
